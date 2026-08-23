@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SoBa — Kahvehane: Türk Kahvehane Oyunları</title>
+<meta name="description" content="Kahvehane — Batak, King, Koz Maça ve daha fazlası. Tamamen internetsiz, adil yapay zekâ, hamle analizi. SoBa oyun stüdyosu.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="wrap nav">
+  <div class="logo">SoBa<span data-i18n="tag"></span></div>
+  <nav class="links">
+    <a href="index.html" data-i18n="nav_home"></a>
+    <a href="privacy.html" data-i18n="nav_privacy"></a>
+    <a href="support.html" data-i18n="nav_support"></a>
+  </nav>
+  <div class="langs">
+    <button data-lang="tr">TR</button><button data-lang="en">EN</button>
+    <button data-lang="de">DE</button><button data-lang="fr">FR</button>
+  </div>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <img src="ozellik.webp" alt="Kahvehane" width="1024" height="500">
+    <h1 data-i18n="h1"></h1>
+    <p class="sub" data-i18n="sub"></p>
+    <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.kahvehane.oyunlari" data-i18n="cta"></a>
+    <p class="note" data-i18n="note"></p>
+  </div>
+
+  <section>
+    <h2 data-i18n="f_title"></h2>
+    <div class="grid">
+      <div class="card"><b data-i18n="f1t"></b><p data-i18n="f1d"></p></div>
+      <div class="card"><b data-i18n="f2t"></b><p data-i18n="f2d"></p></div>
+      <div class="card"><b data-i18n="f3t"></b><p data-i18n="f3d"></p></div>
+      <div class="card"><b data-i18n="f4t"></b><p data-i18n="f4d"></p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 data-i18n="g_title"></h2>
+    <div class="games">
+      <span class="chip">İhaleli Batak</span><span class="chip">Eşli Batak</span>
+      <span class="chip">Koz Maça</span><span class="chip">King</span>
+      <span class="chip">Gömmeli Batak</span><span class="chip">3-5-8</span>
+    </div>
+  </section>
+
+  <section>
+    <h2 data-i18n="s_title"></h2>
+    <div class="shots">
+      <img src="menu.webp" alt="Menü" loading="lazy">
+      <img src="el.webp" alt="Oyun" loading="lazy">
+      <img src="puan.webp" alt="Puan tablosu" loading="lazy">
+    </div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <div>© 2026 SoBa · soba.games</div>
+  <div style="margin-top:6px"><a href="privacy.html" data-i18n="nav_privacy"></a> · <a href="support.html" data-i18n="nav_support"></a></div>
+</div></footer>
+
+<script>
+const T={
+tr:{tag:"oyun stüdyosu",nav_home:"Ana Sayfa",nav_privacy:"Gizlilik",nav_support:"Destek",
+h1:"Kahvehane — Türk Kahvehane Oyunları",
+sub:"Batak, King, Koz Maça ve daha fazlası. Kahvehane havasını cebine taşı — tamamen internetsiz.",
+cta:"Google Play'den İndir",note:"Android için ücretsiz · İnternet gerektirmez",
+f_title:"Neden Kahvehane?",
+f1t:"Tamamen İnternetsiz",f1d:"Uçakta, köyde, metroda — bağlantı olmadan her yerde oyna.",
+f2t:"Adil Yapay Zekâ",f2d:"Rakipler kartlarını görmez. Hile yok, kapalı kart kapalıdır.",
+f3t:"Hamle Analizi",f3d:"El bitince hamlelerini gör: hangi kart doğruydu, nerede kaybettin.",
+f4t:"4 Dil",f4d:"Türkçe, İngilizce, Almanca ve Fransızca tam destek.",
+g_title:"Oyunlar",s_title:"Ekran Görüntüleri"},
+en:{tag:"game studio",nav_home:"Home",nav_privacy:"Privacy",nav_support:"Support",
+h1:"Kahvehane — Turkish Coffeehouse Card Games",
+sub:"Batak (Spades), King, and more. The Turkish coffeehouse in your pocket — fully offline.",
+cta:"Get it on Google Play",note:"Free for Android · No internet required",
+f_title:"Why Kahvehane?",
+f1t:"Fully Offline",f1d:"On a plane, underground, anywhere — no connection needed.",
+f2t:"Fair AI",f2d:"Opponents never see your cards. No cheating — hidden means hidden.",
+f3t:"Move Analysis",f3d:"After each round, review your plays: which card was right, where you lost.",
+f4t:"4 Languages",f4d:"Full support for Turkish, English, German and French.",
+g_title:"Games",s_title:"Screenshots"},
+de:{tag:"Spielestudio",nav_home:"Start",nav_privacy:"Datenschutz",nav_support:"Support",
+h1:"Kahvehane — Türkische Kaffeehaus-Kartenspiele",
+sub:"Batak, King und mehr. Das türkische Kaffeehaus in deiner Tasche — komplett offline.",
+cta:"Bei Google Play laden",note:"Kostenlos für Android · Kein Internet nötig",
+f_title:"Warum Kahvehane?",
+f1t:"Komplett offline",f1d:"Im Flugzeug, in der U-Bahn, überall — ganz ohne Verbindung.",
+f2t:"Faire KI",f2d:"Gegner sehen deine Karten nie. Kein Schummeln — verdeckt bleibt verdeckt.",
+f3t:"Zuganalyse",f3d:"Nach jeder Runde: Welche Karte war richtig, wo hast du verloren?",
+f4t:"4 Sprachen",f4d:"Volle Unterstützung für Türkisch, Englisch, Deutsch und Französisch.",
+g_title:"Spiele",s_title:"Screenshots"},
+fr:{tag:"studio de jeux",nav_home:"Accueil",nav_privacy:"Confidentialité",nav_support:"Assistance",
+h1:"Kahvehane — Jeux de cartes du café turc",
+sub:"Batak, King et plus encore. Le café turc dans votre poche — entièrement hors ligne.",
+cta:"Disponible sur Google Play",note:"Gratuit pour Android · Sans connexion internet",
+f_title:"Pourquoi Kahvehane ?",
+f1t:"Entièrement hors ligne",f1d:"En avion, dans le métro, partout — aucune connexion requise.",
+f2t:"IA équitable",f2d:"Les adversaires ne voient jamais vos cartes. Pas de triche.",
+f3t:"Analyse des coups",f3d:"Après chaque manche, revoyez vos coups : la bonne carte, l'erreur fatale.",
+f4t:"4 langues",f4d:"Turc, anglais, allemand et français entièrement pris en charge.",
+g_title:"Jeux",s_title:"Captures d'écran"}
+};
+function setLang(l){
+  if(!T[l])l="tr";
+  try{localStorage.setItem("soba_lang",l)}catch(e){}
+  document.documentElement.lang=l;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.getAttribute("data-i18n");if(T[l][k]!==undefined)el.textContent=T[l][k]});
+  document.querySelectorAll(".langs button").forEach(b=>b.classList.toggle("on",b.getAttribute("data-lang")===l));
+}
+document.querySelectorAll(".langs button").forEach(b=>b.addEventListener("click",()=>setLang(b.getAttribute("data-lang"))));
+let saved=null;try{saved=localStorage.getItem("soba_lang")}catch(e){}
+setLang(saved||((navigator.language||"tr").slice(0,2)));
+</script>
+</body>
+</html>
