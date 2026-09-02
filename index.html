@@ -3,120 +3,179 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SoBa — Kahvehane: Türk Kahvehane Oyunları</title>
-<meta name="description" content="Kahvehane — Batak, King, Koz Maça ve daha fazlası. Tamamen internetsiz, adil yapay zekâ, hamle analizi. SoBa oyun stüdyosu.">
-<link rel="stylesheet" href="styles.css">
+<title>SoBa — Oyun Stüdyosu</title>
+<meta name="description" content="SoBa, klasik masa ve kart oyunlarını mobil cihazlara taşıyan bağımsız bir oyun stüdyosudur. İnternetsiz oynanan, adil yapay zekâlı oyunlar.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1c2c23">
+<link rel="canonical" href="https://soba.games/">
+<link rel="alternate" hreflang="tr" href="https://soba.games/">
+<link rel="alternate" hreflang="en" href="https://soba.games/?lang=en">
+<link rel="alternate" hreflang="de" href="https://soba.games/?lang=de">
+<link rel="alternate" hreflang="fr" href="https://soba.games/?lang=fr">
+<link rel="alternate" hreflang="x-default" href="https://soba.games/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SoBa">
+<meta property="og:url" content="https://soba.games/">
+<meta property="og:title" content="SoBa — Oyun Stüdyosu">
+<meta property="og:description" content="Klasik masa ve kart oyunlarını mobil cihazlara taşıyan bağımsız oyun stüdyosu.">
+<meta property="og:image" content="https://soba.games/assets/img/soba-og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SoBa — Oyun Stüdyosu">
+<meta name="twitter:description" content="Klasik masa ve kart oyunlarını mobil cihazlara taşıyan bağımsız oyun stüdyosu.">
+<meta name="twitter:image" content="https://soba.games/assets/img/soba-og.png">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"SoBa","url":"https://soba.games/","logo":"https://soba.games/assets/img/soba-og.png","email":"sobagamesdestek@gmail.com"}
+</script>
 </head>
 <body>
-<header><div class="wrap nav">
-  <div class="logo">SoBa<span data-i18n="tag"></span></div>
+<header class="site"><div class="wrap nav">
+  <a class="logo" href="/" data-keep-lang="/">SoBa<span data-i18n="tag"></span></a>
   <nav class="links">
-    <a href="index.html" data-i18n="nav_home"></a>
-    <a href="privacy.html" data-i18n="nav_privacy"></a>
-    <a href="support.html" data-i18n="nav_support"></a>
+    <a href="/" data-keep-lang="/" aria-current="page" data-i18n="nav_home"></a>
+    <a href="/#games" data-keep-lang="/#games" data-i18n="nav_games"></a>
+    <a href="/support.html" data-keep-lang="/support.html" data-i18n="nav_support"></a>
+    <a href="/privacy.html" data-i18n="nav_privacy"></a>
   </nav>
-  <div class="langs">
-    <button data-lang="tr">TR</button><button data-lang="en">EN</button>
-    <button data-lang="de">DE</button><button data-lang="fr">FR</button>
-  </div>
+  <nav class="langs" aria-label="Language">
+    <a href="/" data-lang="tr" hreflang="tr">TR</a><a href="/?lang=en" data-lang="en" hreflang="en">EN</a>
+    <a href="/?lang=de" data-lang="de" hreflang="de">DE</a><a href="/?lang=fr" data-lang="fr" hreflang="fr">FR</a>
+  </nav>
 </div></header>
 
-<div class="wrap">
+<main class="wrap">
   <div class="hero">
-    <img src="ozellik.webp" alt="Kahvehane" width="1024" height="500">
+    <p class="eyebrow" data-i18n="eyebrow"></p>
     <h1 data-i18n="h1"></h1>
     <p class="sub" data-i18n="sub"></p>
-    <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.kahvehane.oyunlari" data-i18n="cta"></a>
-    <p class="note" data-i18n="note"></p>
+    <div class="actions">
+      <a class="play-btn" href="#games" data-i18n="cta_games"></a>
+      <a class="btn-ghost" href="/support.html" data-keep-lang="/support.html" data-i18n="cta_contact"></a>
+    </div>
   </div>
 
-  <section>
-    <h2 data-i18n="f_title"></h2>
+  <section id="values">
+    <h2 data-i18n="v_title"></h2>
     <div class="grid">
-      <div class="card"><b data-i18n="f1t"></b><p data-i18n="f1d"></p></div>
-      <div class="card"><b data-i18n="f2t"></b><p data-i18n="f2d"></p></div>
-      <div class="card"><b data-i18n="f3t"></b><p data-i18n="f3d"></p></div>
-      <div class="card"><b data-i18n="f4t"></b><p data-i18n="f4d"></p></div>
+      <div class="card"><b data-i18n="v1t"></b><p data-i18n="v1d"></p></div>
+      <div class="card"><b data-i18n="v2t"></b><p data-i18n="v2d"></p></div>
+      <div class="card"><b data-i18n="v3t"></b><p data-i18n="v3d"></p></div>
     </div>
   </section>
 
-  <section>
+  <section id="games">
     <h2 data-i18n="g_title"></h2>
-    <div class="games">
-      <span class="chip">İhaleli Batak</span><span class="chip">Eşli Batak</span>
-      <span class="chip">Koz Maça</span><span class="chip">King</span>
-      <span class="chip">Gömmeli Batak</span><span class="chip">3-5-8</span>
-    </div>
+
+    <!-- OYUN KARTI — yeni oyun için bu bloğu kopyala (bkz. README.md) -->
+    <article class="game-card">
+      <a href="/kahvehane/" data-keep-lang="/kahvehane/"><img src="/assets/img/kahvehane/hero.webp" width="1024" height="500" alt="Kahvehane" data-i18n-attr="alt:kh_alt"></a>
+      <div class="body">
+        <h3>Kahvehane</h3>
+        <div class="platform" data-i18n="kh_platform"></div>
+        <p data-i18n="kh_desc"></p>
+        <div class="actions">
+          <a class="btn-ghost" href="/kahvehane/" data-keep-lang="/kahvehane/" data-i18n="kh_more"></a>
+          <a class="play-btn" href="https://play.google.com/store/apps/details?id=com.kahvehane.oyunlari" rel="noopener" data-i18n="kh_play"></a>
+        </div>
+      </div>
+    </article>
+    <!-- /OYUN KARTI -->
+
+    <div class="coming" data-i18n="coming"></div>
   </section>
 
-  <section>
-    <h2 data-i18n="s_title"></h2>
-    <div class="shots">
-      <img src="menu.webp" alt="Menü" loading="lazy">
-      <img src="el.webp" alt="Oyun" loading="lazy">
-      <img src="puan.webp" alt="Puan tablosu" loading="lazy">
-    </div>
+  <section id="about">
+    <h2 data-i18n="a_title"></h2>
+    <p class="sub" style="margin:0;max-width:none;text-align:left" data-i18n="a_body"></p>
   </section>
-</div>
+</main>
 
 <footer><div class="wrap">
-  <div>© 2026 SoBa · soba.games</div>
-  <div style="margin-top:6px"><a href="privacy.html" data-i18n="nav_privacy"></a> · <a href="support.html" data-i18n="nav_support"></a></div>
+  <div data-i18n="foot_rights"></div>
+  <div style="margin-top:6px"><a href="/privacy.html" data-i18n="nav_privacy"></a> · <a href="/support.html" data-keep-lang="/support.html" data-i18n="nav_support"></a></div>
+  <a class="mail" href="mailto:sobagamesdestek@gmail.com">sobagamesdestek@gmail.com</a>
 </div></footer>
 
 <script>
-const T={
-tr:{tag:"oyun stüdyosu",nav_home:"Ana Sayfa",nav_privacy:"Gizlilik",nav_support:"Destek",
-h1:"Kahvehane — Türk Kahvehane Oyunları",
-sub:"Batak, King, Koz Maça ve daha fazlası. Kahvehane havasını cebine taşı — tamamen internetsiz.",
-cta:"Google Play'den İndir",note:"Android için ücretsiz · İnternet gerektirmez",
-f_title:"Neden Kahvehane?",
-f1t:"Tamamen İnternetsiz",f1d:"Uçakta, köyde, metroda — bağlantı olmadan her yerde oyna.",
-f2t:"Adil Yapay Zekâ",f2d:"Rakipler kartlarını görmez. Hile yok, kapalı kart kapalıdır.",
-f3t:"Hamle Analizi",f3d:"El bitince hamlelerini gör: hangi kart doğruydu, nerede kaybettin.",
-f4t:"4 Dil",f4d:"Türkçe, İngilizce, Almanca ve Fransızca tam destek.",
-g_title:"Oyunlar",s_title:"Ekran Görüntüleri"},
-en:{tag:"game studio",nav_home:"Home",nav_privacy:"Privacy",nav_support:"Support",
-h1:"Kahvehane — Turkish Coffeehouse Card Games",
-sub:"Batak (Spades), King, and more. The Turkish coffeehouse in your pocket — fully offline.",
-cta:"Get it on Google Play",note:"Free for Android · No internet required",
-f_title:"Why Kahvehane?",
-f1t:"Fully Offline",f1d:"On a plane, underground, anywhere — no connection needed.",
-f2t:"Fair AI",f2d:"Opponents never see your cards. No cheating — hidden means hidden.",
-f3t:"Move Analysis",f3d:"After each round, review your plays: which card was right, where you lost.",
-f4t:"4 Languages",f4d:"Full support for Turkish, English, German and French.",
-g_title:"Games",s_title:"Screenshots"},
-de:{tag:"Spielestudio",nav_home:"Start",nav_privacy:"Datenschutz",nav_support:"Support",
-h1:"Kahvehane — Türkische Kaffeehaus-Kartenspiele",
-sub:"Batak, King und mehr. Das türkische Kaffeehaus in deiner Tasche — komplett offline.",
-cta:"Bei Google Play laden",note:"Kostenlos für Android · Kein Internet nötig",
-f_title:"Warum Kahvehane?",
-f1t:"Komplett offline",f1d:"Im Flugzeug, in der U-Bahn, überall — ganz ohne Verbindung.",
-f2t:"Faire KI",f2d:"Gegner sehen deine Karten nie. Kein Schummeln — verdeckt bleibt verdeckt.",
-f3t:"Zuganalyse",f3d:"Nach jeder Runde: Welche Karte war richtig, wo hast du verloren?",
-f4t:"4 Sprachen",f4d:"Volle Unterstützung für Türkisch, Englisch, Deutsch und Französisch.",
-g_title:"Spiele",s_title:"Screenshots"},
-fr:{tag:"studio de jeux",nav_home:"Accueil",nav_privacy:"Confidentialité",nav_support:"Assistance",
-h1:"Kahvehane — Jeux de cartes du café turc",
-sub:"Batak, King et plus encore. Le café turc dans votre poche — entièrement hors ligne.",
-cta:"Disponible sur Google Play",note:"Gratuit pour Android · Sans connexion internet",
-f_title:"Pourquoi Kahvehane ?",
-f1t:"Entièrement hors ligne",f1d:"En avion, dans le métro, partout — aucune connexion requise.",
-f2t:"IA équitable",f2d:"Les adversaires ne voient jamais vos cartes. Pas de triche.",
-f3t:"Analyse des coups",f3d:"Après chaque manche, revoyez vos coups : la bonne carte, l'erreur fatale.",
-f4t:"4 langues",f4d:"Turc, anglais, allemand et français entièrement pris en charge.",
-g_title:"Jeux",s_title:"Captures d'écran"}
+window.PAGE_I18N={
+tr:{meta_title:"SoBa — Oyun Stüdyosu",
+    meta_desc:"SoBa, klasik masa ve kart oyunlarını mobil cihazlara taşıyan bağımsız bir oyun stüdyosudur. İnternetsiz oynanan, adil yapay zekâlı oyunlar.",
+    eyebrow:"Bağımsız oyun stüdyosu",
+    h1:"Klasik oyunlar, cebinde.",
+    sub:"SoBa, masanın ve kahvehanenin klasik oyunlarını mobil cihazlara taşır. Tamamen internetsiz, hile yapmayan yapay zekâlı, hesap istemeyen oyunlar.",
+    cta_games:"Oyunlarımız",cta_contact:"Bize Ulaşın",
+    v_title:"Nasıl oyun yapıyoruz?",
+    v1t:"Önce çevrimdışı",v1d:"Uçakta, köyde, metroda — oyunlarımız bağlantı olmadan eksiksiz çalışır. İnternet yalnızca reklam gösterimi için kullanılır.",
+    v2t:"Adil yapay zekâ",v2d:"Bilgisayar rakipleri kapalı kartları görmez. Kazandığında hak ederek kazanırsın.",
+    v3t:"Oyuncuya saygı",v3d:"Hesap yok, kişisel veri toplama yok, sunucu yok. Oyun verilerin yalnızca cihazında kalır.",
+    g_title:"Oyunlarımız",
+    kh_alt:"Kahvehane — Türk kahvehane kart oyunları",
+    kh_platform:"Android · Ücretsiz · Tamamen internetsiz",
+    kh_desc:"Batak, King, Koz Maça ve daha fazlası. Türk kahvehanesinin klasik kart oyunları, hamle analizi ve adil yapay zekâ ile.",
+    kh_more:"Oyun sayfası",kh_play:"Google Play",
+    coming:"Yeni oyunlar yolda. Haberdar olmak için destek e-postamızdan bize yazabilirsin.",
+    a_title:"SoBa hakkında",
+    a_body:"SoBa, Türkiye merkezli küçük bir bağımsız oyun stüdyosudur. Amacımız basit: insanların yıllardır masada oynadığı oyunları, özenli ve dürüst bir mobil deneyim olarak sunmak. Her oyunumuz internet olmadan çalışır ve kişisel veri toplamaz."},
+en:{meta_title:"SoBa — Game Studio",
+    meta_desc:"SoBa is an independent game studio bringing classic table and card games to mobile. Fully offline play with fair AI opponents.",
+    eyebrow:"Independent game studio",
+    h1:"Classic games, in your pocket.",
+    sub:"SoBa brings the classic games of the table and the coffeehouse to mobile. Fully offline, with AI that never cheats and no account required.",
+    cta_games:"Our Games",cta_contact:"Contact Us",
+    v_title:"How we make games",
+    v1t:"Offline first",v1d:"On a plane, in the countryside, underground — our games work completely without a connection. Internet is used only to show ads.",
+    v2t:"Fair AI",v2d:"Computer opponents never see hidden cards. When you win, you earned it.",
+    v3t:"Respect for the player",v3d:"No accounts, no personal data collection, no servers. Your game data stays on your device.",
+    g_title:"Our Games",
+    kh_alt:"Kahvehane — Turkish coffeehouse card games",
+    kh_platform:"Android · Free · Fully offline",
+    kh_desc:"Batak (Spades), King and more. The classic card games of the Turkish coffeehouse, with move analysis and fair AI.",
+    kh_more:"Game page",kh_play:"Google Play",
+    coming:"More games are on the way. Write to our support email if you'd like to hear about them.",
+    a_title:"About SoBa",
+    a_body:"SoBa is a small independent game studio based in Turkey. Our goal is simple: to turn the games people have played at the table for years into a careful, honest mobile experience. Every game we make works without internet and collects no personal data."},
+de:{meta_title:"SoBa — Spielestudio",
+    meta_desc:"SoBa ist ein unabhängiges Spielestudio, das klassische Tisch- und Kartenspiele auf Mobilgeräte bringt. Komplett offline, mit fairer KI.",
+    eyebrow:"Unabhängiges Spielestudio",
+    h1:"Klassische Spiele, in deiner Tasche.",
+    sub:"SoBa bringt die klassischen Spiele von Tisch und Kaffeehaus aufs Handy. Komplett offline, mit einer KI, die nie schummelt, und ohne Konto.",
+    cta_games:"Unsere Spiele",cta_contact:"Kontakt",
+    v_title:"Wie wir Spiele machen",
+    v1t:"Offline zuerst",v1d:"Im Flugzeug, auf dem Land, in der U-Bahn — unsere Spiele laufen vollständig ohne Verbindung. Internet wird nur für Werbung genutzt.",
+    v2t:"Faire KI",v2d:"Computergegner sehen verdeckte Karten nie. Wenn du gewinnst, hast du es verdient.",
+    v3t:"Respekt vor dem Spieler",v3d:"Keine Konten, keine Erhebung persönlicher Daten, keine Server. Deine Spieldaten bleiben auf deinem Gerät.",
+    g_title:"Unsere Spiele",
+    kh_alt:"Kahvehane — türkische Kaffeehaus-Kartenspiele",
+    kh_platform:"Android · Kostenlos · Komplett offline",
+    kh_desc:"Batak, King und mehr. Die klassischen Kartenspiele des türkischen Kaffeehauses, mit Zuganalyse und fairer KI.",
+    kh_more:"Zur Spielseite",kh_play:"Google Play",
+    coming:"Weitere Spiele sind unterwegs. Schreib an unsere Support-Adresse, wenn du informiert werden möchtest.",
+    a_title:"Über SoBa",
+    a_body:"SoBa ist ein kleines unabhängiges Spielestudio aus der Türkei. Unser Ziel ist einfach: die Spiele, die Menschen seit Jahren am Tisch spielen, als sorgfältiges und ehrliches mobiles Erlebnis anzubieten. Jedes unserer Spiele funktioniert ohne Internet und sammelt keine persönlichen Daten."},
+fr:{meta_title:"SoBa — Studio de jeux",
+    meta_desc:"SoBa est un studio de jeux indépendant qui porte les jeux de table et de cartes classiques sur mobile. Entièrement hors ligne, avec une IA équitable.",
+    eyebrow:"Studio de jeux indépendant",
+    h1:"Les jeux classiques, dans votre poche.",
+    sub:"SoBa porte les jeux classiques de la table et du café sur mobile. Entièrement hors ligne, avec une IA qui ne triche jamais et sans compte.",
+    cta_games:"Nos jeux",cta_contact:"Nous contacter",
+    v_title:"Comment nous créons nos jeux",
+    v1t:"Hors ligne d'abord",v1d:"En avion, à la campagne, dans le métro — nos jeux fonctionnent entièrement sans connexion. Internet ne sert qu'à afficher la publicité.",
+    v2t:"IA équitable",v2d:"Les adversaires contrôlés par l'ordinateur ne voient jamais les cartes cachées. Quand vous gagnez, vous l'avez mérité.",
+    v3t:"Respect du joueur",v3d:"Pas de compte, aucune collecte de données personnelles, pas de serveur. Vos données de jeu restent sur votre appareil.",
+    g_title:"Nos jeux",
+    kh_alt:"Kahvehane — jeux de cartes du café turc",
+    kh_platform:"Android · Gratuit · Entièrement hors ligne",
+    kh_desc:"Batak, King et plus encore. Les jeux de cartes classiques du café turc, avec analyse des coups et IA équitable.",
+    kh_more:"Page du jeu",kh_play:"Google Play",
+    coming:"D'autres jeux arrivent. Écrivez à notre adresse d'assistance si vous souhaitez être tenu au courant.",
+    a_title:"À propos de SoBa",
+    a_body:"SoBa est un petit studio de jeux indépendant basé en Turquie. Notre objectif est simple : transformer les jeux que l'on joue à table depuis des années en une expérience mobile soignée et honnête. Chacun de nos jeux fonctionne sans internet et ne collecte aucune donnée personnelle."}
 };
-function setLang(l){
-  if(!T[l])l="tr";
-  try{localStorage.setItem("soba_lang",l)}catch(e){}
-  document.documentElement.lang=l;
-  document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.getAttribute("data-i18n");if(T[l][k]!==undefined)el.textContent=T[l][k]});
-  document.querySelectorAll(".langs button").forEach(b=>b.classList.toggle("on",b.getAttribute("data-lang")===l));
-}
-document.querySelectorAll(".langs button").forEach(b=>b.addEventListener("click",()=>setLang(b.getAttribute("data-lang"))));
-let saved=null;try{saved=localStorage.getItem("soba_lang")}catch(e){}
-setLang(saved||((navigator.language||"tr").slice(0,2)));
 </script>
+<script src="/assets/js/i18n.js"></script>
 </body>
 </html>

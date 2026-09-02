@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Stüdyo ana sayfası -->
+  <url>
+    <loc>https://soba.games/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soba.games/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soba.games/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soba.games/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soba.games/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soba.games/"/>
+  </url>
+
+  <!-- OYUN: Kahvehane — yeni oyun için bu bloğu kopyala -->
+  <url>
+    <loc>https://soba.games/kahvehane/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soba.games/kahvehane/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soba.games/kahvehane/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soba.games/kahvehane/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soba.games/kahvehane/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soba.games/kahvehane/"/>
+  </url>
+
+  <url>
+    <loc>https://soba.games/support.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soba.games/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soba.games/support.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soba.games/support.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soba.games/support.html?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soba.games/support.html"/>
+  </url>
+
+  <!-- Gizlilik politikası (Play Console'da kayıtlı, dil başına ayrı sayfa) -->
+  <url>
+    <loc>https://soba.games/gizlilik/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://soba.games/gizlilik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soba.games/gizlilik/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://soba.games/gizlilik/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soba.games/gizlilik/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soba.games/gizlilik/"/>
+  </url>
+  <url><loc>https://soba.games/gizlilik/en/</loc><lastmod>2026-07-27</lastmod></url>
+  <url><loc>https://soba.games/gizlilik/de/</loc><lastmod>2026-07-27</lastmod></url>
+  <url><loc>https://soba.games/gizlilik/fr/</loc><lastmod>2026-07-27</lastmod></url>
+</urlset>

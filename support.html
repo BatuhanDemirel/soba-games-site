@@ -3,77 +3,117 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Destek — Kahvehane / SoBa</title>
-<link rel="stylesheet" href="styles.css">
+<title>Destek — SoBa</title>
+<meta name="description" content="SoBa oyunları için destek: soru, hata bildirimi ve öneriler. Kahvehane sık sorulan sorular.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1c2c23">
+<link rel="canonical" href="https://soba.games/support.html">
+<link rel="alternate" hreflang="tr" href="https://soba.games/support.html">
+<link rel="alternate" hreflang="en" href="https://soba.games/support.html?lang=en">
+<link rel="alternate" hreflang="de" href="https://soba.games/support.html?lang=de">
+<link rel="alternate" hreflang="fr" href="https://soba.games/support.html?lang=fr">
+<link rel="alternate" hreflang="x-default" href="https://soba.games/support.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SoBa">
+<meta property="og:url" content="https://soba.games/support.html">
+<meta property="og:title" content="Destek — SoBa">
+<meta property="og:description" content="SoBa oyunları için destek: soru, hata bildirimi ve öneriler.">
+<meta property="og:image" content="https://soba.games/assets/img/soba-og.png">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Destek — SoBa">
+<meta name="twitter:description" content="SoBa oyunları için destek: soru, hata bildirimi ve öneriler.">
+<meta name="twitter:image" content="https://soba.games/assets/img/soba-og.png">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-<header><div class="wrap nav">
-  <div class="logo">SoBa</div>
+<header class="site"><div class="wrap nav">
+  <a class="logo" href="/" data-keep-lang="/">SoBa<span data-i18n="tag"></span></a>
   <nav class="links">
-    <a href="index.html" id="n_home"></a>
-    <a href="privacy.html" id="n_priv"></a>
-    <a href="support.html" id="n_sup"></a>
+    <a href="/" data-keep-lang="/" data-i18n="nav_home"></a>
+    <a href="/#games" data-keep-lang="/#games" data-i18n="nav_games"></a>
+    <a href="/support.html" data-keep-lang="/support.html" aria-current="page" data-i18n="nav_support"></a>
+    <a href="/privacy.html" data-i18n="nav_privacy"></a>
   </nav>
-  <div class="langs">
-    <button data-lang="tr">TR</button><button data-lang="en">EN</button>
-    <button data-lang="de">DE</button><button data-lang="fr">FR</button>
-  </div>
+  <nav class="langs" aria-label="Language">
+    <a href="/support.html" data-lang="tr" hreflang="tr">TR</a><a href="/support.html?lang=en" data-lang="en" hreflang="en">EN</a>
+    <a href="/support.html?lang=de" data-lang="de" hreflang="de">DE</a><a href="/support.html?lang=fr" data-lang="fr" hreflang="fr">FR</a>
+  </nav>
 </div></header>
 
-<div class="wrap doc" id="content" style="padding-top:30px;padding-bottom:40px"></div>
+<main class="wrap doc">
+  <h2 data-i18n="title"></h2>
+  <p data-i18n="intro"></p>
+  <div class="card" style="margin:18px 0"><b data-i18n="email_label"></b><p><a href="mailto:sobagamesdestek@gmail.com">sobagamesdestek@gmail.com</a></p></div>
+  <p data-i18n="bug_tip"></p>
 
-<footer><div class="wrap">© 2026 SoBa · soba.games</div></footer>
+  <h3 data-i18n="faq_title"></h3>
+  <div class="faq">
+    <p><b data-i18n="q1"></b> <span data-i18n="a1"></span></p>
+    <p><b data-i18n="q2"></b> <span data-i18n="a2"></span></p>
+    <p><b data-i18n="q3"></b> <span data-i18n="a3"></span></p>
+    <p><b data-i18n="q4"></b> <span data-i18n="a4"></span></p>
+  </div>
+
+  <h3 data-i18n="priv_title"></h3>
+  <p><span data-i18n="priv_body"></span> <a href="/privacy.html" data-i18n="priv_link"></a></p>
+</main>
+
+<footer><div class="wrap">
+  <div data-i18n="foot_rights"></div>
+  <div style="margin-top:6px"><a href="/privacy.html" data-i18n="nav_privacy"></a> · <a href="/support.html" data-keep-lang="/support.html" data-i18n="nav_support"></a></div>
+  <a class="mail" href="mailto:sobagamesdestek@gmail.com">sobagamesdestek@gmail.com</a>
+</div></footer>
 
 <script>
-const NAV={tr:["Ana Sayfa","Gizlilik","Destek"],en:["Home","Privacy","Support"],de:["Start","Datenschutz","Support"],fr:["Accueil","Confidentialité","Assistance"]};
-const S={
-tr:`<h2>Destek</h2>
-<p>Kahvehane ile ilgili soru, hata bildirimi veya öneriniz için bize e-posta gönderin. Genellikle 1-2 iş günü içinde yanıtlıyoruz.</p>
-<div class="card" style="margin:18px 0"><b>E-posta</b><p><a href="mailto:sobagamesdestek@gmail.com">sobagamesdestek@gmail.com</a></p></div>
-<h3>Sık Sorulanlar</h3>
-<p><b>Oyun internetsiz çalışıyor mu?</b> Evet, tüm oyunlar tamamen çevrimdışı oynanır. İnternet yalnızca reklam gösterimi için kullanılır.</p>
-<p><b>Rakipler kartlarımı görüyor mu?</b> Hayır. Yapay zekâ yalnızca açık bilgileri kullanır; kapalı kartlarınızı hiçbir zaman göremez.</p>
-<p><b>İlerlemem kayboldu.</b> Oyun verileri cihazınızda saklanır; uygulamayı kaldırmak verileri siler. Sorun yaşıyorsanız cihaz modeliniz ve uygulama sürümüyle birlikte yazın.</p>
-<p><b>Hata bildirirken:</b> Cihaz modeli, Android sürümü, uygulama sürümü ve hatanın hangi oyunda/ekranda olduğunu eklerseniz çok hızlı çözeriz.</p>`,
-en:`<h2>Support</h2>
-<p>For questions, bug reports or suggestions about Kahvehane, send us an email. We usually reply within 1–2 business days.</p>
-<div class="card" style="margin:18px 0"><b>Email</b><p><a href="mailto:sobagamesdestek@gmail.com">sobagamesdestek@gmail.com</a></p></div>
-<h3>FAQ</h3>
-<p><b>Does the game work offline?</b> Yes, all games are fully playable offline. Internet is used only to show ads.</p>
-<p><b>Can opponents see my cards?</b> No. The AI only uses public information; it can never see your hidden cards.</p>
-<p><b>I lost my progress.</b> Game data is stored on your device; uninstalling the app deletes it. If something looks wrong, write to us with your device model and app version.</p>
-<p><b>Reporting a bug:</b> Please include your device model, Android version, app version and the game/screen where it happened.</p>`,
-de:`<h2>Support</h2>
-<p>Bei Fragen, Fehlermeldungen oder Vorschlägen zu Kahvehane schreiben Sie uns eine E-Mail. Wir antworten in der Regel innerhalb von 1–2 Werktagen.</p>
-<div class="card" style="margin:18px 0"><b>E-Mail</b><p><a href="mailto:sobagamesdestek@gmail.com">sobagamesdestek@gmail.com</a></p></div>
-<h3>Häufige Fragen</h3>
-<p><b>Funktioniert das Spiel offline?</b> Ja, alle Spiele sind vollständig offline spielbar. Internet wird nur für Werbung genutzt.</p>
-<p><b>Sehen die Gegner meine Karten?</b> Nein. Die KI nutzt nur offene Informationen; Ihre verdeckten Karten sieht sie nie.</p>
-<p><b>Mein Spielstand ist weg.</b> Spieldaten liegen auf Ihrem Gerät; das Deinstallieren der App löscht sie. Bei Problemen schreiben Sie uns mit Gerätemodell und App-Version.</p>
-<p><b>Fehler melden:</b> Bitte Gerätemodell, Android-Version, App-Version und das betroffene Spiel/den Bildschirm angeben.</p>`,
-fr:`<h2>Assistance</h2>
-<p>Pour toute question, signalement de bug ou suggestion concernant Kahvehane, envoyez-nous un e-mail. Nous répondons généralement sous 1 à 2 jours ouvrés.</p>
-<div class="card" style="margin:18px 0"><b>E-mail</b><p><a href="mailto:sobagamesdestek@gmail.com">sobagamesdestek@gmail.com</a></p></div>
-<h3>Questions fréquentes</h3>
-<p><b>Le jeu fonctionne-t-il hors ligne ?</b> Oui, tous les jeux sont entièrement jouables hors ligne. Internet ne sert qu'à afficher la publicité.</p>
-<p><b>Les adversaires voient-ils mes cartes ?</b> Non. L'IA n'utilise que les informations visibles ; elle ne voit jamais vos cartes cachées.</p>
-<p><b>J'ai perdu ma progression.</b> Les données de jeu sont stockées sur votre appareil ; désinstaller l'application les supprime. En cas de problème, écrivez-nous avec le modèle de votre appareil et la version de l'application.</p>
-<p><b>Signaler un bug :</b> merci d'indiquer le modèle d'appareil, la version d'Android, la version de l'application et le jeu/écran concerné.</p>`
+window.PAGE_I18N={
+tr:{meta_title:"Destek — SoBa",meta_desc:"SoBa oyunları için destek: soru, hata bildirimi ve öneriler. Kahvehane sık sorulan sorular.",
+    title:"Destek",
+    intro:"SoBa oyunlarıyla ilgili soru, hata bildirimi veya öneriniz için bize e-posta gönderin. Genellikle 1-2 iş günü içinde yanıtlıyoruz.",
+    email_label:"E-posta",
+    bug_tip:"Hata bildirirken cihaz modeli, Android sürümü, uygulama sürümü ve hatanın hangi oyunda/ekranda olduğunu eklerseniz çok hızlı çözeriz.",
+    faq_title:"Sık Sorulanlar — Kahvehane",
+    q1:"Oyun internetsiz çalışıyor mu?",a1:"Evet, tüm oyunlar tamamen çevrimdışı oynanır. İnternet yalnızca reklam gösterimi için kullanılır.",
+    q2:"Rakipler kartlarımı görüyor mu?",a2:"Hayır. Yapay zekâ yalnızca açık bilgileri kullanır; kapalı kartlarınızı hiçbir zaman göremez.",
+    q3:"İlerlemem kayboldu.",a3:"Oyun verileri cihazınızda saklanır; uygulamayı kaldırmak verileri siler. Sorun yaşıyorsanız cihaz modeliniz ve uygulama sürümüyle birlikte yazın.",
+    q4:"Reklamları nasıl kapatırım?",a4:"Reklamlar oyunun ücretsiz kalmasını sağlıyor. İnternet bağlantısı olmadan reklam gösterilmez, oyun aynen çalışır.",
+    priv_title:"Gizlilik",priv_body:"Uygulamalarımız kişisel veri toplamaz. Ayrıntılar için:",priv_link:"Gizlilik Politikası"},
+en:{meta_title:"Support — SoBa",meta_desc:"Support for SoBa games: questions, bug reports and suggestions. Kahvehane FAQ.",
+    title:"Support",
+    intro:"For questions, bug reports or suggestions about SoBa games, send us an email. We usually reply within 1–2 business days.",
+    email_label:"Email",
+    bug_tip:"When reporting a bug, please include your device model, Android version, app version and the game/screen where it happened — it helps us fix it fast.",
+    faq_title:"FAQ — Kahvehane",
+    q1:"Does the game work offline?",a1:"Yes, all games are fully playable offline. Internet is used only to show ads.",
+    q2:"Can opponents see my cards?",a2:"No. The AI only uses public information; it can never see your hidden cards.",
+    q3:"I lost my progress.",a3:"Game data is stored on your device; uninstalling the app deletes it. If something looks wrong, write to us with your device model and app version.",
+    q4:"How do I turn off ads?",a4:"Ads keep the game free. Without an internet connection no ads are shown and the game works exactly the same.",
+    priv_title:"Privacy",priv_body:"Our apps collect no personal data. For details:",priv_link:"Privacy Policy"},
+de:{meta_title:"Support — SoBa",meta_desc:"Support für SoBa-Spiele: Fragen, Fehlermeldungen und Vorschläge. Häufige Fragen zu Kahvehane.",
+    title:"Support",
+    intro:"Bei Fragen, Fehlermeldungen oder Vorschlägen zu SoBa-Spielen schreiben Sie uns eine E-Mail. Wir antworten in der Regel innerhalb von 1–2 Werktagen.",
+    email_label:"E-Mail",
+    bug_tip:"Bitte geben Sie beim Melden eines Fehlers Gerätemodell, Android-Version, App-Version und das betroffene Spiel/den Bildschirm an — so lösen wir es schnell.",
+    faq_title:"Häufige Fragen — Kahvehane",
+    q1:"Funktioniert das Spiel offline?",a1:"Ja, alle Spiele sind vollständig offline spielbar. Internet wird nur für Werbung genutzt.",
+    q2:"Sehen die Gegner meine Karten?",a2:"Nein. Die KI nutzt nur offene Informationen; Ihre verdeckten Karten sieht sie nie.",
+    q3:"Mein Spielstand ist weg.",a3:"Spieldaten liegen auf Ihrem Gerät; das Deinstallieren der App löscht sie. Bei Problemen schreiben Sie uns mit Gerätemodell und App-Version.",
+    q4:"Wie schalte ich Werbung aus?",a4:"Werbung hält das Spiel kostenlos. Ohne Internetverbindung wird keine Werbung angezeigt, das Spiel läuft genauso.",
+    priv_title:"Datenschutz",priv_body:"Unsere Apps sammeln keine persönlichen Daten. Details:",priv_link:"Datenschutzerklärung"},
+fr:{meta_title:"Assistance — SoBa",meta_desc:"Assistance pour les jeux SoBa : questions, signalement de bugs et suggestions. FAQ Kahvehane.",
+    title:"Assistance",
+    intro:"Pour toute question, signalement de bug ou suggestion concernant les jeux SoBa, envoyez-nous un e-mail. Nous répondons généralement sous 1 à 2 jours ouvrés.",
+    email_label:"E-mail",
+    bug_tip:"Pour signaler un bug, merci d'indiquer le modèle d'appareil, la version d'Android, la version de l'application et le jeu/écran concerné — nous le corrigerons plus vite.",
+    faq_title:"Questions fréquentes — Kahvehane",
+    q1:"Le jeu fonctionne-t-il hors ligne ?",a1:"Oui, tous les jeux sont entièrement jouables hors ligne. Internet ne sert qu'à afficher la publicité.",
+    q2:"Les adversaires voient-ils mes cartes ?",a2:"Non. L'IA n'utilise que les informations visibles ; elle ne voit jamais vos cartes cachées.",
+    q3:"J'ai perdu ma progression.",a3:"Les données de jeu sont stockées sur votre appareil ; désinstaller l'application les supprime. En cas de problème, écrivez-nous avec le modèle de votre appareil et la version de l'application.",
+    q4:"Comment désactiver la publicité ?",a4:"La publicité permet au jeu de rester gratuit. Sans connexion internet, aucune publicité n'est affichée et le jeu fonctionne exactement pareil.",
+    priv_title:"Confidentialité",priv_body:"Nos applications ne collectent aucune donnée personnelle. Pour les détails :",priv_link:"Politique de confidentialité"}
 };
-function setLang(l){
-  if(!S[l])l="tr";
-  try{localStorage.setItem("soba_lang",l)}catch(e){}
-  document.documentElement.lang=l;
-  document.getElementById("content").innerHTML=S[l];
-  const n=NAV[l];
-  document.getElementById("n_home").textContent=n[0];
-  document.getElementById("n_priv").textContent=n[1];
-  document.getElementById("n_sup").textContent=n[2];
-  document.querySelectorAll(".langs button").forEach(b=>b.classList.toggle("on",b.getAttribute("data-lang")===l));
-}
-document.querySelectorAll(".langs button").forEach(b=>b.addEventListener("click",()=>setLang(b.getAttribute("data-lang"))));
-let saved=null;try{saved=localStorage.getItem("soba_lang")}catch(e){}
-setLang(saved||((navigator.language||"tr").slice(0,2)));
 </script>
+<script src="/assets/js/i18n.js"></script>
 </body>
 </html>
